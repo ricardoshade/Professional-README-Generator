@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -85,44 +86,13 @@ function init() {
   .prompt(questions)
   .then((response) => {
     console.log(response)
-
+    const template = generateMarkdown(response)
+    
 
     //How do I create links using table of contents?
-    const template = 
-    `
-        # ${response.projectTitle}
-
-        ##License
-        ${response.licenseType}
-
-        ## Description
-        ${response.projectDescription}
-
-        ## Table of Contents 
-        
-
-        ## Installation
-        ${response.installationInstrutions}
-
-        ## Usage
-        ${response.projectUse}
-
-        ## Contributing
-        ${response.howToContribute}
-
-        ## Tests
-        ${response.testingInstructions}
-
-        ## Questions
-        ${response.gitHubUsername}
-        ${response.emailAddress}
-    `
-    const license = 
-    `
-        ${response.licenseType}
-    `
+    
+    
     writeToFile("README.md", template)
-    writeToFile("LICENSE", license) //How to add description of selected license?
   });
 }
 
