@@ -1,31 +1,44 @@
 
-  # asdf
+  # Employee Tracker
 
-  [License: Academic Free License v3.0](https://img.shields.io/badge/License-AcademicFreeLicensev3.0-blue.svg)
+  [License: Boost Software License 1.0](https://img.shields.io/badge/License-BoostSoftwareLicense1.0-blue.svg)
   
   ## Description
-  adsf
+  This employee tracker will be tracking employee data for better organization.
 
   ## Table of Contents 
-  
+  [License: Boost Software License 1.0](#license)
+
+  [Description](#description)
+
+  [Installation](#installation)
+
+  [Usage](#usage)
+
+  [Contributions](#contributions)
+
+  [Tests](#tests)
+
+  [Questions](#questions)
+
   ## Installation
-  undefined
+  (sample installation instructions)
 
   ## Usage
-  asdf
-  [License: Academic Free License v3.0](#license)
+  This project will be used to create a better tracking system for incoming employees and their information.
   
-  ## Contributing
-  asdf
+  ## Contributions
+  (instructions for how to contribute)
 
   ## License 
     
-    This repository is covered under the Academic Free License v3.0 license
+    This repository is covered under the Boost Software License 1.0 license
 
   ## Tests
-  asdf
+  (instructions for testing)
 
   ## Questions
   [ricardoshade](https://github.com/ricardoshade)
-  adsf
+
+  sampleemail@gmail.com
 

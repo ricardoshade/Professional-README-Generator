@@ -38,15 +38,25 @@ function generateMarkdown(response) {
   ## Table of Contents 
   ${renderLicenseLink(response.licenseType)}
 
+  [Description](#description)
+
+  [Installation](#installation)
+
+  [Usage](#usage)
+
+  [Contributions](#contributions)
+
+  [Tests](#tests)
+
+  [Questions](#questions)
+
   ## Installation
   ${response.installationInstructions}
 
   ## Usage
   ${response.projectUse}
-
   
-  
-  ## Contributing
+  ## Contributions
   ${response.howToContribute}
 
   ${renderLicenseSection(response.licenseType)}
@@ -56,6 +66,7 @@ function generateMarkdown(response) {
 
   ## Questions
   [${response.gitHubUsername}](https://github.com/${response.gitHubUsername})
+
   ${response.emailAddress}
 
 `;
